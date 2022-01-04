@@ -21,6 +21,8 @@
 #
 #   - app/Console/Kernel.php                [MODIFY]
 #   - app/Models/User.php                   [DELETE]
+#
+#   - webpack.mix.js                        [MODIFY]
 
 LARAVEL_VERSION=$(php artisan --version)
 LARAVEL_VERSION=${LARAVEL_VERSION//[!0-9.]/}
@@ -86,6 +88,10 @@ then
 
         echo -n "Cleaning Kernel . . . "
         sed -i '' '/\/\//d' app/Console/Kernel.php
+        echo "Completed!"
+        
+        echo -n "Cleaning webpack.min.js . . . "
+        sed -i '' '1,/\*\//!d' webpack.mix.js
         echo "Completed!"
 
         echo "Completed Cleanup !!"
