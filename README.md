@@ -45,6 +45,8 @@ Then enter 1 to continue.
 
 - webpack.min.js                        [MODIFY]
 
+- phpunit.xml                           [MODIFY]
+
 - README.md                             [DELETE]
 <br />
 

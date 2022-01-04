@@ -24,6 +24,8 @@
 #
 #   - webpack.mix.js                        [MODIFY]
 #
+#   - phpunit.xml                           [MODIFY]
+#
 #   - README.md                             [DELETE]
 
 LARAVEL_VERSION=$(php artisan --version)
@@ -98,6 +100,10 @@ then
         
         echo -n "Cleaning webpack.min.js . . . "
         sed -i '' '1,/\*\//!d' webpack.mix.js
+        echo "Completed!"
+
+        echo -n "Cleaning phpunit.xml . . . "
+        sed -i '' '/Test.php/d' phpunit.xml
         echo "Completed!"
 
         echo "Completed Cleanup !!"
