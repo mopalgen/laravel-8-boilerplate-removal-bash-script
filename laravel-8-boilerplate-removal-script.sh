@@ -23,6 +23,8 @@
 #   - app/Models/User.php                   [DELETE]
 #
 #   - webpack.mix.js                        [MODIFY]
+#
+#   - README.md                             [DELETE]
 
 LARAVEL_VERSION=$(php artisan --version)
 LARAVEL_VERSION=${LARAVEL_VERSION//[!0-9.]/}
@@ -73,6 +75,10 @@ then
 
         echo -n "Deleting static assets . . . "
         rm -f public/favicon.ico
+        echo "Completed!"
+
+        echo -n "Deleting README.md . . . "
+        rm -f README.md
         echo "Completed!"
 
         echo -n "Cleaning routes . . . "

@@ -44,7 +44,8 @@ Then enter 1 to continue.
 - app/Models/User.php                   [DELETE]
 
 - webpack.min.js                        [MODIFY]
-  
+
+- README.md                             [DELETE]
 <br />
 
 > :warning: The script will delete itself after script execution is completed.
