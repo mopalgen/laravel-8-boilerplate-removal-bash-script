@@ -43,6 +43,8 @@ Then enter 1 to continue.
 - app/Console/Kernel.php                [MODIFY]
 - app/Models/User.php                   [DELETE]
 
+- webpack.min.js                        [MODIFY]
+  
 <br />
 
 > :warning: The script will delete itself after script execution is completed.
