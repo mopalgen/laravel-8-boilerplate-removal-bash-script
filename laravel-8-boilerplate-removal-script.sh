@@ -113,7 +113,7 @@ then
         echo "Completed!"
 
         echo "Completed Cleanup !!"
-        rm -- "$0"
+        rm -f "$0"
     fi
 else
     echo "FAILED"
