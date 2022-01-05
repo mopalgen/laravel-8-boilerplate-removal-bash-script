@@ -22,6 +22,8 @@
 #   - app/Console/Kernel.php                [MODIFY]
 #   - app/Models/User.php                   [DELETE]
 #
+#   - config/auth.php                       [MODIFY]
+#
 #   - webpack.mix.js                        [MODIFY]
 #
 #   - phpunit.xml                           [MODIFY]
@@ -81,6 +83,10 @@ then
 
         echo -n "Deleting README.md . . . "
         rm -f README.md
+        echo "Completed!"
+
+        echo -n "Cleaning config . . . "
+        sed -i '' 's/App\\Models\\User::class/'\'\''/g' config/auth.php
         echo "Completed!"
 
         echo -n "Cleaning routes . . . "

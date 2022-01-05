@@ -43,6 +43,8 @@ Then enter 1 to continue.
 - app/Console/Kernel.php                [MODIFY]
 - app/Models/User.php                   [DELETE]
 
+- config/auth.php                       [MODIFY]
+
 - webpack.min.js                        [MODIFY]
 
 - phpunit.xml                           [MODIFY]
