@@ -1,13 +1,21 @@
 # Laravel 8 boilerplate removal script
 Cleans up all the boilerplate code for Laravel project.
 
-Supports Laravel 8.x.x
+Supports Laravel 8.x.x, 9.x.x
 
 ## Running script
 From your laravel project's root directory in your terminal run the following command :
+
+### For Laravel 8
 ```console
 bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-8-boilerplate-removal-bash-script/main/laravel-8-boilerplate-removal-script.sh)"
 ```
+
+### For Laravel 9
+```console
+bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-8-boilerplate-removal-bash-script/main/laravel-9-boilerplate-removal-script.sh)"
+```
+
 Then enter 1 to continue.
 
 ## Deleted or modified files
