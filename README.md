@@ -8,12 +8,12 @@ From your laravel project's root directory in your terminal run the following co
 
 ### For Laravel 8
 ```console
-bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-8-boilerplate-removal-bash-script/main/laravel-8-boilerplate-removal-script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-boilerplate-removal-bash-script/main/laravel-8-boilerplate-removal-script.sh)"
 ```
 
 ### For Laravel 9
 ```console
-bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-8-boilerplate-removal-bash-script/main/laravel-9-boilerplate-removal-script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/mopalgen/laravel-boilerplate-removal-bash-script/main/laravel-9-boilerplate-removal-script.sh)"
 ```
 
 Then enter 1 to continue.
