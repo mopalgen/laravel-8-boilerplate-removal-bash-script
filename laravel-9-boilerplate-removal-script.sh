@@ -47,7 +47,7 @@ done
 echo "Current Laravel Version : $LARAVEL_VERSION"
 echo -n "Checking Laravel version . . . "
 
-if [ $LARAVEL_VERSION_NUMBER -ge 9 ] && [ $LARAVEL_VERSION_NUMBER -lt 10 ]
+if [ $LARAVEL_VERSION_NUMBER -ge 9 ] && [ $LARAVEL_VERSION_NUMBER -lt 11 ]
 then
     echo "OK"
     if [[ $LARAVEL_CURRENT_ENVIRONMENT == *"production"* ]]
